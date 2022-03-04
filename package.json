@@ -1,0 +1,14 @@
+{
+  "name": "tailwindtutor",
+  "version": "1.0.0",
+  "description": "Tutorial for Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/style.css -o public/style.css"
+  },
+  "author": "Hermawan",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
